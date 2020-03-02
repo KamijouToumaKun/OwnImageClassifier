@@ -1,17 +1,18 @@
 # OwnImageClassifier
-An multi-class image classifier that goes with your custom train set &amp; test set
+A multi-class image classifier that goes with your custom train set &amp; test set
 
-# Path
-  
-    Your custom train set directory: "train/1", "train/2", ...
-    Your custom test set directory: "test"
-    Output directory: "test_out/1", "test_out/2", ...
-    Model path: "model"
+## Path
+You can modify the following default setting by giving different arguments to the model
 
-# Environment
+    Your custom train set directory: "./train/1", "./train/2", ...
+    Your custom test set directory: "./test"
+    Output directory: "./test_out/1", "./test_out/2", ...
+    Model directory: "./model"
+
+## Environment
 Python3 + TensorFlow.
 
-# Performance
+## Performance
 Best performance on my own dataset (not provided here:)
         
     Train Accuracy: 0.942604
@@ -19,7 +20,7 @@ Best performance on my own dataset (not provided here:)
 
 You can modify the model that suits your custom dataset better.
 
-# P.S.
+## P.S.
 You can add your custom label to the image file names if needed.
 
 e.g. For Linux:
